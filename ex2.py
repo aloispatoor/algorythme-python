@@ -1,4 +1,5 @@
-var = 18
+var = int (input("Votre age:"))
+
 if(var == 0):
     print("Bizarre votre âge")
 elif(var < 18):

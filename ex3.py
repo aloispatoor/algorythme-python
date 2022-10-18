@@ -1,8 +1,9 @@
-a = "5"
-b = "0"
+a = input("Entrez un chiffre:")
+b = input("Entrez un autre chiffre:")
 
 addition = int(a) + int(b)
-print(str(addition))
+print(f"Le resultat est {addition}")
+# Avec le f format
 
 soustraction = int(a) - int(b)
 print(str(soustraction))

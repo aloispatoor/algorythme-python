@@ -1,4 +1,4 @@
-num = 81
+num = int (input("Entrez un nombre:"))
 
 if (num >= 0 and num <= 50 ):
     print("Nombre compris entre 0 et 50")
